@@ -80,6 +80,14 @@ export const seasons: Season[] = [
         tags: ["Sport", "Leadership"],
       },
       {
+        title: "Ten Years of Bharatanatyam",
+        logline:
+          "Alongside school, she learns Bharatanatyam in Vizag for ten years: the classical Indian dance form that rewards hours of unglamorous practice.",
+        stat: "10",
+        statLabel: "years of Bharatanatyam",
+        tags: ["Dance", "Discipline"],
+      },
+      {
         title: "Finale: Every Door Open",
         logline:
           "99.67 percentile in JEE Main and 342/450 in BITSAT, both in 2019. Every old NIT and BIT offers her a seat, and she picks Warangal.",
