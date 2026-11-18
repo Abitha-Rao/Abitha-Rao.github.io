@@ -35,7 +35,7 @@ export default function Home() {
           </h1>
           <p className="hero-meta">
             <b>98% match for APM roles</b>
-            <span>2019 – present</span>
+            <span>Childhood – present</span>
             <span>{seasons.length} seasons</span>
             <span>{episodeCount} episodes</span>
             <span className="rating">PM</span>

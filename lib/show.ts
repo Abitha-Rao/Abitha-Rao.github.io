@@ -33,7 +33,7 @@ export const recap = [
   {
     kicker: "Season 0",
     title: "She finishes first, then keeps going",
-    body: "In Vizag she stays top of her class at Timpany School for twelve straight years, captains the throwball team, and finishes school with offers from every old NIT and BIT.",
+    body: "In Vizag she stays top of her class at Timpany School for twelve straight years, captains the throwball team, learns Bharatanatyam for ten, and finishes school with offers from every old NIT and BIT.",
   },
   {
     kicker: "Season 1",
@@ -359,10 +359,10 @@ export const spinoffs = [
     mark: "✂",
   },
   {
-    title: "Study Buddy",
+    title: "Satchel",
     genre: "Productivity",
     blurb:
-      "A student planner that sorts tasks by a priority score built from importance, hours needed and days left, so the list tells you what to do next.",
+      "A student planner with tasks by subject, nearest deadline first. It also has a quick-capture inbox for thoughts and voice notes, a weekly timetable and PDF storage, and every user sees only their own data.",
     code: "https://github.com/Abitha-Rao/Satchel-StudyPlanner",
     from: "#8CFF6B",
     to: "#3DDCFF",
