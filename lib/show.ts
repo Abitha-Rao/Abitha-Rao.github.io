@@ -31,6 +31,11 @@ export const profile = {
 
 export const recap = [
   {
+    kicker: "Season 0",
+    title: "She finishes first, then keeps going",
+    body: "In Vizag she stays top of her class at Timpany School for twelve straight years, captains the throwball team, and finishes school with offers from every old NIT and BIT.",
+  },
+  {
     kicker: "Season 1",
     title: "She builds things early",
     body: "At NIT Warangal she graduates in the top 5%, founds a 200-strong women's mentoring network, and finishes national runner-up twice with products she built herself.",
@@ -49,6 +54,42 @@ export const recap = [
 
 export const seasons: Season[] = [
   {
+    id: "s0",
+    number: 0,
+    title: "Before the Pilot",
+    setting: "Timpany School, Vizag",
+    years: "Childhood – 2019",
+    synopsis:
+      "A schoolgirl in Vizag keeps coming first, captains the throwball team, and has every old NIT and BIT to choose from by the end of it.",
+    color: "#2EC4B6",
+    episodes: [
+      {
+        title: "Twelve Years Running",
+        logline:
+          "Class valedictorian and General Proficiency Rank 1 at Timpany Secondary School, every year for twelve years in a row.",
+        stat: "12",
+        statLabel: "years at Rank 1",
+        tags: ["Academics", "Consistency"],
+      },
+      {
+        title: "Captain on the Court",
+        logline:
+          "Captain of the school throwball team, on top of the rank-one report cards.",
+        stat: "Captain",
+        statLabel: "school throwball team",
+        tags: ["Sport", "Leadership"],
+      },
+      {
+        title: "Finale: Every Door Open",
+        logline:
+          "99.67 percentile in JEE Main and 342/450 in BITSAT, both in 2019. Every old NIT and BIT offers her a seat, and she picks Warangal.",
+        stat: "99.67",
+        statLabel: "JEE Main percentile",
+        tags: ["JEE Main", "BITSAT"],
+      },
+    ],
+  },
+  {
     id: "s1",
     number: 1,
     title: "The Origin Story",
@@ -61,7 +102,7 @@ export const seasons: Season[] = [
       {
         title: "Pilot: Go Corona Go",
         logline:
-          "Lockdown, 2020. She builds an interactive game that teaches hand hygiene to primary school kids. First product, first users.",
+          "Lockdown, 2020. She builds an interactive game that teaches hand hygiene to students at her old school, Timpany. First product, first users.",
         stat: "300+",
         statLabel: "students played",
         tags: ["Python", "Social impact"],
@@ -267,6 +308,16 @@ export const seasons: Season[] = [
 ];
 
 export const spinoffs = [
+  {
+    title: "CompSignal",
+    genre: "Sales intelligence · Data",
+    blurb:
+      "A weekly scanner for a sales-compensation software team. It reads companies' public job postings, flags signs that their commission process is changing, and writes a brief that links every claim to its source. First run: 14 accounts flagged from 250 targets, with 89% of 64 hand-checked flags correct.",
+    code: "https://github.com/Abitha-Rao/compsignal",
+    from: "#FF7A3D",
+    to: "#FF3D81",
+    mark: "◎",
+  },
   {
     title: "Chat Checkout",
     genre: "Fintech · GenAI",
